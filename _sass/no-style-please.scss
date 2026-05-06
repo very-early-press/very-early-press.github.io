@@ -29,8 +29,8 @@ html { height: 100%; scroll-behavior: smooth; }
 body {
   color: #6A89A7; /* : Blue gray  */
   font-family: 'Cormorant', serif;
-  font-size: 18px;
-  line-height: 1.4;
+  font-size: 16px;
+  line-height: 1.2;
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
@@ -38,16 +38,16 @@ body {
 
 /* --- LINK STYLES --- */
 a {
-  color: #BDDDFC; /* slightly lighter for contrast */
+  color: #88BDF2; /* slightly lighter for contrast */
   text-decoration: underline;
 }
 
 a:visited {
-  color: #BDDDFC; /* Same color */
+  color: #88BDF2; /* Same color */
 }
 
 a:hover {
-  color: #88BDF2; /* darkens slightly when hovering */
+  color: #BDDDFC; /* brightens slightly when hovering */
 }
 /* ------------------- */
 
@@ -65,7 +65,7 @@ p { margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
 
-*:target { background: white; }
+*:target { background: violet; }
 
 .w {
   max-width: 640px;
