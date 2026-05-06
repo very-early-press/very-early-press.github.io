@@ -27,7 +27,7 @@ html, body { background: white; }
 html { height: 100%; scroll-behavior: smooth; }
 
 body {
-  color: #add8e6; /* This is the Hex code for Light Blue */
+  color: #87CEEB; /* SkyBlue: a more visible light blue */
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   line-height: 1.6;
@@ -36,9 +36,23 @@ body {
   overflow-wrap: break-word;
 }
 
-/* Updated tables and quotes to match the new color */
+/* --- LINK STYLES --- */
+a {
+  color: #00BFFF; /* DeepSkyBlue: slightly darker for contrast */
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #4682B4; /* SteelBlue: even darker for "clicked" links */
+}
+
+a:hover {
+  color: #1E90FF; /* DodgerBlue: brightens slightly when hovering */
+}
+/* ------------------- */
+
 table, th, td, blockquote {
-  border: thin solid #add8e6;
+  border: thin solid #87CEEB; /* Match the border to the light blue text */
 }
 
 .post-meta { text-align: right; }
